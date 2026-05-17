@@ -306,8 +306,33 @@
                         "color": "blue",
                         "search": true,
                         "url": "/location",
+                        "page": "locationdetailpage"
+                    }
+                ]
+            },
+            {
+                "id": "locationdetailpage",
+                "elementList": [
+                    {
+                        "type": "backbutton"
+                    },
+                    {
+                        "type": "newButton",
+                        "name": "EditLocation",
+                        "icon": "fa-home",
+                        "color": "green",
                         "form": {
                             "form": "LocationForm"
+                        }
+                    },
+                    {
+                        "type": "list",
+                        "icon": "fa-calendar",
+                        "color": "orange",
+                        "search": true,
+                        "url": "/location/:locationKey/activity",
+                        "form": {
+                            "form": "ActivityForm"
                         }
                     }
                 ]
