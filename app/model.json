@@ -255,7 +255,7 @@
                         "type": "backbutton"
                     },
                     {
-                        "type": "newButton",
+                        "type": "button",
                         "name": "EditFriend",
                         "icon": "fa-user",
                         "color": "green",
@@ -317,7 +317,7 @@
                         "type": "backbutton"
                     },
                     {
-                        "type": "newButton",
+                        "type": "button",
                         "name": "EditLocation",
                         "icon": "fa-home",
                         "color": "green",
@@ -396,7 +396,7 @@
                         "type": "backbutton"
                     },
                     {
-                        "type": "newButton",
+                        "type": "button",
                         "name": "EditActivity",
                         "icon": "fa-calendar",
                         "color": "green",
